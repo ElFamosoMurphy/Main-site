@@ -1,14 +1,29 @@
+*{
+  Margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-heading {
+  width: 100%;
+}
+
+.img-heading h2 {
+  padding:30px 30px 20px;
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  line-height: 40px;
+}
+
 body {
     background-color: black;
   }
 
-  body {
-    font-size: 30px;
-    line-height: 3;
-    color: white;
-  }
-
-  body {
-    text-align: center;
-  }
-
+.img-title {
+  width: 100%;
+  padding:50px 50px 10px;
+}
