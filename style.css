@@ -18,10 +18,10 @@ body {
 .img-title {
   width: 100%;
   max-width: 1400px;
-  padding:50px 50px 10px;
+  padding:0px 50px 10px;
   position: absolute;
   left: 50%; 
-  transform: translate(-50%, 5%);
+  transform: translate(-50%, 0%);
 }
 
 * { margin: 0; padding: 0; }
@@ -37,11 +37,54 @@ html,body{height:0%;}
 
 #content { 
   padding:30px 30px 20px;
-  font-family: arial;
+  font-family: Archivo;
   font-size: 50px;
   color: white;
   line-height: 40px;
+  letter-spacing: 10px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -0%);
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: black;
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: Archivo;
+  font-size: 1.2em;
+  line-height: 1000px;
+  height: 5000px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  color: rgb(173, 173, 173);
+}
+
+ 
+@media screen and (min-width: 300px) {
+  .nav li {
+    width: 140px;
+    border-bottom: white;
+    height: 60px;
+    line-height: 250px;
+    font-size: 1.4em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-left: 10;
+  }
 }
