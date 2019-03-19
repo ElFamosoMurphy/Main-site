@@ -47,10 +47,25 @@ html,body{height:0%;}
   transform: translate(-50%, -0%);
 }
  
+#description { 
+  padding:30px 30px 20px;
+  font-family: Archivo;
+  font-size: 20px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-80%, 0%);
+}
+
 .nav ul {
   list-style: none;
   background-color: black;
-  text-align: justify;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
@@ -76,11 +91,11 @@ html,body{height:0%;}
  
 @media screen and (min-width: 300px) {
   .nav li {
-    width: 300px;
+    width: 280px;
     border-bottom: white;
     height: 60px;
     line-height: 250px;
-    font-size: 3em;
+    font-size: 1.4em;
   }
  
   .nav li {
