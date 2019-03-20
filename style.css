@@ -45,3 +45,22 @@ body {
     max-width: 1200px;
     position: center;
   }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin: 0.25rem;
+}
+
+  @media only screen and (min-width: 768px) { 
+  nav{
+    flex-direction: row;
+  }
+}
