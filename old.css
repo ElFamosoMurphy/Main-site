@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+  }
+
+.heading { 
+  font-family: Archivo;
+  font-size: 30px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.social { 
+  font-family: Archivo;
+  display: none;
+  font-size:14px;
+  color: white;
+  line-height: 25px;
+  letter-spacing: 2.5px;
+  position: center;
+}
+
+.img-title {
+  width: 80%;
+  display: none;
+  max-width: 400px;
+  position: center;
+}
+
+
+
+html,body{height:0%;}
